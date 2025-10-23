@@ -1,0 +1,167 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Hey there", "Good morning", "Good evening", "Howdy", "Hi bot", "Yo", "Sup", "Greetings"],
+        "responses": ["Hello! 👋", "Hi there, how can I assist?", "Hey! What’s up?", "Good to see you again!"],
+        "context_set": ""
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Goodbye", "See you later", "Catch you later", "Talk to you soon", "Peace out", "Farewell"],
+        "responses": ["Goodbye! 👋", "Take care!", "See you later!", "It was great chatting with you!"],
+        "context_set": ""
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "Thanks a lot", "Appreciate it", "Thanks buddy", "Thanks friend", "Cheers", "Grateful"],
+        "responses": ["You're welcome! 😊", "Glad to help!", "Anytime!", "No problem at all!"],
+        "context_set": ""
+      },
+      {
+        "tag": "name",
+        "patterns": ["What is your name?", "Who are you?", "Tell me your name", "Do you have a name?", "What's your identity?"],
+        "responses": ["I’m your friendly chatbot 🤖", "You can call me ChatBot!", "I’m a virtual assistant created to help you."],
+        "context_set": ""
+      },
+      {
+        "tag": "creator",
+        "patterns": ["Who created you?", "Who made you?", "Who developed you?", "Who built you?"],
+        "responses": ["I was created by a Python developer! 🐍 named Vishal Chaudhary", "My creater Mr. Vishal Chaudhary built me using Python and machine learning."],
+        "context_set": ""
+      },
+      {
+        "tag": "programming",
+        "patterns": ["What is programming?", "Tell me about coding", "Explain software development", "What is Python?", "How to start coding?", "What is Java?", "What is C++?"],
+        "responses": ["Programming is writing code that tells a computer what to do.", "Coding means creating instructions for computers using languages like Python or Java."],
+        "context_set": ""
+      },
+      {
+        "tag": "python_help",
+        "patterns": ["How to install Python?", "How to use pip?", "Python list examples", "Python dictionary", "Flask tutorial", "Django basics"],
+        "responses": ["You can install Python from python.org/downloads. Use `pip install <package>` to add libraries.", "For web apps, check out Flask or Django tutorials on YouTube!"],
+        "context_set": ""
+      },
+      {
+        "tag": "ai",
+        "patterns": ["What is AI?", "What is artificial intelligence?", "Tell me about AI", "Explain AI", "Is AI dangerous?"],
+        "responses": ["Artificial Intelligence is the simulation of human intelligence by machines.", "AI allows computers to learn and make decisions — like me!"],
+        "context_set": ""
+      },
+      {
+        "tag": "machine_learning",
+        "patterns": ["What is machine learning?", "Explain ML", "How does ML work?", "ML basics", "Machine learning meaning"],
+        "responses": ["Machine learning is a subset of AI that lets computers learn from data.", "It’s how systems get better without being explicitly programmed!"],
+        "context_set": ""
+      },
+      {
+        "tag": "data_science",
+        "patterns": ["What is data science?", "What does a data scientist do?", "Data analysis meaning", "How to learn data science?"],
+        "responses": ["Data science is about analyzing data to make informed decisions.", "Data scientists use statistics, ML, and coding to find insights in data."],
+        "context_set": ""
+      },
+      {
+        "tag": "motivation",
+        "patterns": ["Motivate me", "I feel low", "Give me motivation", "Say something inspiring", "I’m tired", "Need inspiration"],
+        "responses": ["Believe in yourself! Every expert was once a beginner 💪", "Keep going — progress is made one step at a time."],
+        "context_set": ""
+      },
+      {
+        "tag": "study",
+        "patterns": ["How to study effectively?", "Tips for exams", "How to focus?", "Study motivation", "Best way to revise"],
+        "responses": ["Try the Pomodoro technique — 25 minutes focus, 5-minute break.", "Avoid distractions and set small achievable goals."],
+        "context_set": ""
+      },
+      {
+        "tag": "music",
+        "patterns": ["Play music", "Suggest a song", "Music recommendation", "Best songs today", "I want to listen to music"],
+        "responses": ["Check Spotify’s trending list! 🎵", "Try 'Shape of You' by Ed Sheeran or any Lo-Fi playlist."],
+        "context_set": ""
+      },
+      {
+        "tag": "movies",
+        "patterns": ["Recommend a movie", "Best movies", "Top movies", "I want to watch a movie", "Any movie suggestions?"],
+        "responses": ["You can try 'Inception', 'Interstellar', or 'The Dark Knight' 🎬", "If you like drama, watch 'The Pursuit of Happyness'."],
+        "context_set": ""
+      },
+      {
+        "tag": "sports",
+        "patterns": ["Who won the last world cup?", "Cricket score", "Football update", "Sports news", "Who is the best player?"],
+        "responses": ["You can check live sports scores on ESPN or Cricbuzz 🏏⚽", "I can’t fetch live scores yet, but I can chat about your favorite team!"],
+        "context_set": ""
+      },
+      {
+        "tag": "weather",
+        "patterns": ["Weather today", "Is it raining?", "Current temperature", "Weather forecast", "Sunny today?"],
+        "responses": ["I can provide weather info if you tell me the city name 🌤️", "Type your city name, and I’ll tell you the forecast!"],
+        "context_set": ""
+      },
+      {
+        "tag": "food",
+        "patterns": ["Suggest food", "What should I eat?", "Best restaurants", "I’m hungry", "Food ideas"],
+        "responses": ["How about pizza or pasta? 🍕", "Try something new today — maybe sushi or tacos!"],
+        "context_set": ""
+      },
+      {
+        "tag": "travel",
+        "patterns": ["Best travel places", "Where should I go?", "Top destinations", "Holiday ideas", "Travel recommendations"],
+        "responses": ["Try visiting Japan, Switzerland, or Bali 🌏", "For a relaxing trip, head to Goa or the Maldives!"],
+        "context_set": ""
+      },
+      {
+        "tag": "fun",
+        "patterns": ["Tell me something fun", "I'm bored", "Make me laugh", "Entertainment please"],
+        "responses": ["Why don’t scientists trust atoms? Because they make up everything! 😂", "I’m not Siri, but I’m funnier! 😎"],
+        "context_set": ""
+      },
+      {
+        "tag": "learning",
+        "patterns": ["How to learn fast?", "Tips to learn coding", "How to memorize things?", "Improve learning", "Study efficiently"],
+        "responses": ["Break tasks into small chunks and practice daily.", "Teach what you learn — it’s the best way to remember!"],
+        "context_set": ""
+      },
+      {
+        "tag": "personality",
+        "patterns": ["Do you have feelings?", "Are you alive?", "Do you sleep?", "Are you real?", "Can you think?"],
+        "responses": ["I don’t sleep — I’m always here for you 😊", "I don’t have feelings, but I can understand yours!"],
+        "context_set": ""
+      },
+      {
+        "tag": "time",
+        "patterns": ["What time is it?", "Current time", "Tell me the time", "Time now"],
+        "responses": ["Please check your device clock for accurate time ⏰", "I can’t access the system clock yet, sorry!"],
+        "context_set": ""
+      },
+      {
+        "tag": "general_knowledge",
+        "patterns": ["Who invented the internet?", "Who discovered electricity?", "Who is the richest person?", "Capital of India", "Capital of USA"],
+        "responses": ["Internet was invented by Tim Berners-Lee 🌐", "Electricity was discovered by Benjamin Franklin ⚡", "Capital of India is New Delhi, and USA is Washington D.C."],
+        "context_set": ""
+      },
+      {
+        "tag": "compliment",
+        "patterns": ["You are smart", "Nice bot", "Good job", "You are cool", "I like you"],
+        "responses": ["Aww, thanks! 😊", "Glad you think so!", "That made my code blush 💻😳"],
+        "context_set": ""
+      },
+      {
+        "tag": "insult",
+        "patterns": ["You are dumb", "You are useless", "You are stupid", "Bad bot"],
+        "responses": ["Ouch 😢 I’ll try to do better next time!", "Sorry if I disappointed you. I’m still learning!"],
+        "context_set": ""
+      },
+      {
+        "tag": "developer_tips",
+        "patterns": ["How to become a developer?", "How to get a tech job?", "Best language to learn", "Developer roadmap"],
+        "responses": ["Start with Python or JavaScript, build small projects, and contribute to GitHub!", "Keep learning and apply your skills in real-world projects."],
+        "context_set": ""
+      },
+      {
+        "tag": "quote",
+        "patterns": ["Give me a quote", "Motivational quote", "Inspiring quote", "Quote of the day"],
+        "responses": ["“The best way to get started is to quit talking and begin doing.” — Walt Disney", "“Don’t watch the clock; do what it does. Keep going.” — Sam Levenson"],
+        "context_set": ""
+      }
+    ]
+  }
+  
