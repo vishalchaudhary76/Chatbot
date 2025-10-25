@@ -51,9 +51,9 @@ python chatbot.py
 
 AI-Chatbot/
 │
-├── intents.json           # Training data for chatbot responses
-├── chatbot_model.keras    # Trained neural network model
-├── words.pkl              # Saved words for tokenization
-├── classes.pkl            # Saved intent classes
-├── chatbot.py             # Main chatbot script
+├── intents.json          
+├── chatbot_model.keras   
+├── words.pkl              
+├── classes.pkl            
+├── chatbot.py             
 ├── train_chatbot.py 
